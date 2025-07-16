@@ -1,12 +1,29 @@
-# React + Vite
+# 🎞️ Photobooth 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dreamy photo booth web app built with **React** and **Vite**, where users can enjoy a playful camera experience, countdown to a snap, and see a beautiful photo strip output. Ideal for parties, events, or just fun!
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Photobooth on GitHub Pages](https://akankshaing.github.io/Photobooth/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Features
+
+- 📸 Live camera view
+- ⏳ Countdown animation (1...2...3... Smile!)
+- 🎨 Photo filters (e.g., sepia, soft, vintage)
+- 🧱 Photo strip output (3-grid format)
+- 🧑‍🎨 Stylish interface with red curtains, brown wallpaper
+- 🎛️ User-friendly buttons for click & filter
+- ⚙️ Built using React + Vite for blazing-fast performance
+
+---
+
+## 🛠️ Tech Stack
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
