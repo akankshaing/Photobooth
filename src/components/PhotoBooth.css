@@ -1,0 +1,101 @@
+.booth-container {
+  background: radial-gradient(#000000, #1a1a1a);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.booth-header {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  padding: 10px 30px;
+  color: white;
+  background: radial-gradient(circle, rgb(245, 23, 127) 60%, rgb(255, 0, 93));
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.booth-body {
+  display: flex;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+  background: #ffffff;
+}
+
+.coin-slot {
+  width: 120px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 128);
+  font-family: monospace;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.slot {
+  width: 40px;
+  height: 6px;
+  background: black;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.curtain-wrapper {
+  flex: 1;
+  position: relative;
+  background: #000000;
+  overflow: hidden;
+}
+
+.webcam-preview {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.coin {
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle at center, gold, goldenrod);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.coin:hover {
+  transform: scale(1.1);
+}
+
+.curtain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #df4065 ,
+    #d92353 10px,
+    #da063f 10px,
+    #d92353 20px
+  );
+  z-index: 2;
+  opacity: 0.95;
+  transition: transform 1s ease;
+  transform: translateX(0%);
+}
+
+.curtain.open {
+  transform: translateX(-100%);
+}
